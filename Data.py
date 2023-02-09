@@ -39,3 +39,6 @@ df23 = pd.read_csv('NAFTRAC_20221130.csv',skiprows=2)
 df24 = pd.read_csv('NAFTRAC_20221230.csv',skiprows=2)
 df25 = pd.read_csv('NAFTRAC_20230125.csv',skiprows=2)
 
+vertical_concat = pd.concat([df, df2, df3,df4,df5,df6,df7,df8,df9,df10,df11,df12,df13,df14,df15,df16,df17,df18,df19,df20,df21,
+                             df22,df23,df24,df25], axis=0).drop(37) #eliminar última fila vacía
+
