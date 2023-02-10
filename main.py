@@ -21,5 +21,5 @@ cant24 = cant[cant['Ticker'] == 25] #tickers repetidos 25 veces
 pesos1 = df[['Ticker','Peso (%)']]
 pesos1 = pesos1.loc[pesos1['Ticker'].isin((cant24.index))].set_index('Ticker')
 pesos1["Peso (%)"] = df["Peso (%)"] / 100
-pesos1["Ticker"] = [pesos1["Ticker"].replace(".", "-").replace("*", "") + ".MX" for i in list(pesos1["Ticker"])
+pesos1["Ticker"] = [pesos1["Ticker"].replace(".", "-").replace("*", "") + ".MX" for i in list(pesos1["Ticker"])]
 
