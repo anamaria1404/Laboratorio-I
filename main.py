@@ -24,16 +24,16 @@ pesos1["Peso (%)"] = df["Peso (%)"] / 100
 pesos1["Ticker"] = [pesos1["Ticker"].replace(".", "-").replace("*", "") + ".MX" for i in list(pesos1["Ticker"])
 
 
-def passive(naftrac_date = 20210129, capital = 1000000, comission = 0.00125):
+#def passive(naftrac_date = 20210129, capital = 1000000, comission = 0.00125):
     
-    df, naftrac_date = data.file_reading(naftrac_date = naftrac_date)
-    df = data.data_wrangling(df)
-    fig1, fig2 = visualizations.pie_chart(df)
+#    df, naftrac_date = data.file_reading(naftrac_date = naftrac_date)
+#    df = data.data_wrangling(df)
+#    fig1, fig2 = visualizations.pie_chart(df)
     
 
-    df["Ticker"] = [stock.replace(".", "-").replace("*", "") + ".MX" for stock in list(df["Ticker"])]
+#    df["Ticker"] = [stock.replace(".", "-").replace("*", "") + ".MX" for stock in list(df["Ticker"])]
     
-    df_passive, fig3, df_metrics = functions.passive_investment_strategy(df, naftrac_date, capital, comission, 
-                                                         "Passive Investment Strategy: NAFTRAC")    
+#    df_passive, fig3, df_metrics = functions.passive_investment_strategy(df, naftrac_date, capital, comission, 
+#                                                         "Passive Investment Strategy: NAFTRAC")    
     
-    return df_passive, df_metrics, fig1, fig2, fig3
+#    return df_passive, df_metrics, fig1, fig2, fig3
