@@ -1,12 +1,12 @@
-# -*- coding: utf-8 -*-
-
-# -- Sheet --
-
-# # Laboratorio 1. Inversión de Capital
-# Galilea De La Torre\
-# Ana María Aguilera\
-# **Tipo de script:** script para recabar los datos necesarios.
-
+"""
+# -- --------------------------------------------------------------------------------------------------- -- #
+# -- project: Laboratorio 1: Inversión de Capital                                                        -- #
+# -- script: data.py : python script for data collection                                                 -- #
+# -- author: anamaria1404 y Galileatr                                                                    -- #
+# -- license: GPL-3.0 License                                                                            -- #
+# -- repository: https://github.com/anamaria1404/Laboratorio-I                                           -- #
+# -- --------------------------------------------------------------------------------------------------- -- #
+"""
 
 #Librerías
 
