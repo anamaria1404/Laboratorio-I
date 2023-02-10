@@ -1,3 +1,11 @@
+# -- --------------------------------------------------------------------------------------------------- -- #
+# -- project: Laboratorio 1: Inversión de Capital                                                        -- #
+# -- script: requirements.txt : text file with the required libraries for the project                    -- #
+# -- author: anamaria1404 y Galileatr                                                                    -- #
+# -- license: GPL-3.0 License                                                                            -- #
+# -- repository: https://github.com/anamaria1404/Laboratorio-I                                           -- #
+# -- --------------------------------------------------------------------------------------------------- -- #
+
 pandas>=1.1.1
 numpy>=1.19.1
 jupyter>=1.0.0
