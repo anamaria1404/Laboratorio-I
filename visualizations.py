@@ -6,11 +6,11 @@
 
 """
 # -- --------------------------------------------------------------------------------------------------- -- #
-# -- project: Laboratorio 1: Inversión de Capital                                                         -- #
-# -- script: functions.py : python script with general functions                                         -- #
-# -- author: anamaria1404 y Galileatr                                                                       -- #
+# -- project: Laboratorio 1: Inversión de Capital                                                        -- #
+# -- script: visualizations.py : python script with data visualization functions                         -- #
+# -- author: anamaria1404 y Galileatr                                                                    -- #
 # -- license: GPL-3.0 License                                                                            -- #
-# -- repository: https://github.com/anamaria1404/Laboratorio-I                                                                     -- #
+# -- repository: https://github.com/anamaria1404/Laboratorio-I                                           -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
 
