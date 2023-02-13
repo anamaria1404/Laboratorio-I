@@ -13,6 +13,12 @@
 # -- repository: https://github.com/anamaria1404/Laboratorio-I                                           -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
+
+import pandas as pd
+import yfinance as yf
+import numpy as np
+
+
 #Función para limpiar tickets
 def replace_text(x, to_replace, replacement):
         try:
